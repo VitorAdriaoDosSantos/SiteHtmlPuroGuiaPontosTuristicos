@@ -24,17 +24,17 @@
             <label for="local">Local da Viagem:</label><br>
                 <select name="local" id="local" required>
                     <option value="0" selected>Lagoa do Mato</option>
-                    <option value="0" selected>Museu Jaguaribano</option>
-                    <option value="0" selected>Merceária Ponciano</option>
-                    <option value="0" selected>Praia de Canoa Quebrada</option>
-                    <option value="0" selected>Praia de Majorlândia</option>
+                    <option value="1" selected>Museu Jaguaribano</option>
+                    <option value="2" selected>Merceária Ponciano</option>
+                    <option value="3" selected>Praia de Canoa Quebrada</option>
+                    <option value="4" selected>Praia de Majorlândia</option>
                 </select><br><br>
             <label for="totaldePessoas">Numero Total de Pessoas:</label><br>
                     <input type="number" name="totaldePessoas" id="totaldePessoas" min="1" max="10"><br><br>
             <label for="animais">Há animais:</label><br>
-                <input type="radio" name="animais" id="animais">SIM
+                <input type="radio" name="animais" id="animais-sim" value = "sim">SIM
                 <br>
-                <input type="radio" name="animais" id="animais">NÂO
+                <input type="radio" name="animais" id="animais-nao" value = "nao">NÂO
                 <br><br>
         </fieldset>
         <button type="submit">Enviar Descrição</button>
